@@ -1,0 +1,295 @@
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+  
+  }
+  
+  body {
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Avenir';
+    padding: 0;
+  
+  }
+  
+  
+  
+  
+  .logo .logo-img {
+    position: absolute;
+    Width: 300px;
+    Height: 300px;
+    Top: -70px;
+    Left: 727px;
+    margin-top: 2em;
+  }
+  
+  @media (max-width: 800px) {
+    .logo .logo-img {
+      position: relative;
+      Top: -70px;
+      Left: 28px;
+  
+    }
+  }
+  
+  
+  .nav-container {
+    display: flex;
+  }
+  
+  @media (max-width: 800px) {
+    .nav-container {
+      flex-direction: column;
+    }
+  }
+  
+  .follow {
+    Width: 165px;
+    Height: 22px;
+    margin-Top: 64px;
+    margin-Left: 67px;
+  }
+  
+  .social-icons {
+    margin-right: 100px;
+    margin-top: 64px;
+  
+    position: absolute;
+  }
+  
+  .last-nav {
+    display: flex;
+    /* gap: 100em; */
+    margin-left: 93em;
+    margin-top: 5em;
+    position: absolute;
+  }
+  
+  @media (max-width: 800px) {
+    .last-nav {
+      display: flex;
+      gap: 10em;
+      ;
+      margin-left: 5em;
+      margin-top: 16em;
+      position: absolute
+    }
+  }
+  
+  
+  .last-nav2 {
+    display: flex;
+    gap: 0.2em;
+    /* margin-left: 3em; */
+    margin-top: -0.5em;
+    position: absolute;
+  }
+  .last-nav3 {
+    display: flex;
+    gap: 1em;
+    margin-left: 5em;
+    margin-top: -0.5em;
+    position: absolute;
+  }
+
+  .last-nav4 {
+    display: flex;
+    gap: 1em;
+    margin-left: 8em;
+    margin-top: -0.5em;
+    position: absolute;
+  }
+  
+  
+  
+  .number-index p {
+    height: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #182754;
+    margin-right: 10em;
+    padding: 10px;
+  }
+  
+  .card-image {
+    margin-top: 74px;
+    height: 723px;
+    justify-content: space-around;
+    justify-content: space-between;
+  
+    width: 502px;
+    margin-left: 60px;
+    display: flex;
+    gap: 74em;
+  }
+  
+  .card-section {
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  @media (max-width: 800px) {
+    .card-section {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card-section {
+      flex-direction: column;
+    }
+  }
+  
+  
+  .first-img {
+    height: 723px;
+    width: 502;
+    position: absolute;
+  }
+  
+  .card-two {
+    display: flex;
+  
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  @media (max-width: 800px) {
+    .card-two {
+      flex-direction: column;
+    }
+  }
+  
+  /* main{
+      margin-bottom: 50rem;
+  } */
+  
+  .outfit-name {
+    display: flex;
+    gap: 25.5em;
+    margin-left: 60px;
+    margin-top: 20px;
+  
+  
+  }
+  
+  .second-card-section {
+    display: flex;
+    gap: 27em;
+    margin-left: 60px;
+    margin-top: 20px;
+  
+  }
+  
+  ul {
+    list-style-type: none;
+  
+  
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  footer {
+    display: flex;
+    margin-top: 2em;
+    background-color: #182754;
+    /* Width: 1760px; */
+    Height: 173px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  /* @media (max-width: 800px) {
+      footer {
+        flex-direction: column;
+      }
+    } */
+  
+  .footer {
+    display: flex;
+    /* margin-top: 2em;
+      background-color: #182754; */
+    /* Width:1760px;
+      Height:173px; */
+    /* color: #fff;
+      text-decoration: none; */
+    position: relative;
+  }
+  
+  @media (max-width: 800px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+  
+  .first-footer-section .bit {
+    Width: 99px;
+    Height: 53px;
+    margin-top: 60px;
+    margin-left: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    position: absolute;
+  }
+  
+  .second-footer-section ul li {
+    margin-left: 37em;
+    margin-top: 59px;
+    position: relative;
+    display: flex;
+    gap: 11px;
+  }
+  
+  .second-footer-section ul li a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: Regular;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    /* padding: 1px; */
+    /* margin-top: 1px; */
+  }
+  
+  .footer-card {
+    display: flex;
+    /* position: relative; */
+  
+  
+  }
+  
+  @media (max-width: 800px) {
+    .footer-card {
+      flex-direction: column;
+    }
+  }
+  
+  
+  .third-footer-section {
+    display: flex;
+    position: relative;
+    gap: 17;
+    font-size: 16px;
+    font-style: Regular;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 59px;
+    margin-left: 20em;
+  }
+  
+  .ab {
+    display: flex;
+    gap: 1em;
+  }
