@@ -285,6 +285,12 @@ section {
   }
 }
 
+.item-price{
+Font-family: Avenir;
+Font-style: Roman;
+color:  #888EA0;
+}
+
 
 .card-two {
   display: flex;
@@ -311,6 +317,8 @@ section {
   /* margin-left: 60px;  */
   margin-top: 1em;
   position: absolute;
+  font-size: Avenir;
+Font-style: Medium;
 }
 
 @media (max-width: 700px) {
@@ -330,8 +338,10 @@ section {
   /* margin-left: 40px; */
   margin-top: 3em;
   position: absolute;
-
+  
 }
+
+
 
 @media (max-width: 700px) {
   .second-card-section {
