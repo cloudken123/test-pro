@@ -80,6 +80,7 @@ body {
   /* margin-Left: 67px; */
 }
 
+
 @media (max-width: 700px) {
   .follow {
     Width: 165px;
@@ -124,6 +125,8 @@ body {
   margin-left: 0em;
   margin-top: -0.5em;
   position: absolute;
+  Font-family: Avenir;
+  /* Font-style:  */
 }
 
 @media (max-width: 700px) {
